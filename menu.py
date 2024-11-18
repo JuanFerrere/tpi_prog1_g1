@@ -15,7 +15,7 @@ def mostrar_menu():
         if opcion == "1":
             from herramientadeayudamat import herramienta_matematica
         elif opcion == "2":
-            from juegopreguntas import juego_adivinanza
+            from adivina_numero import iniciar_juego
 
         elif opcion == "3":
             from juegopreguntas import cargar_preguntas_desde_archivo
